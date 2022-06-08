@@ -1,0 +1,4 @@
+fragment AdminSnippet on Admin {
+  id
+  username
+}

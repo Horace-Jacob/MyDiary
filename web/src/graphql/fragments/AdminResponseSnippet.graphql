@@ -1,0 +1,8 @@
+fragment AdminResponseSnippet on AdminResponse {
+  errors {
+    ...ErrorSnippet
+  }
+  admin {
+    ...AdminSnippet
+  }
+}

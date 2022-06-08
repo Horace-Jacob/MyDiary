@@ -1,0 +1,5 @@
+mutation Login($email: String!, $password: String!, $secret: String!) {
+  login(email: $email, password: $password, secret: $secret) {
+    ...AdminResponseSnippet
+  }
+}

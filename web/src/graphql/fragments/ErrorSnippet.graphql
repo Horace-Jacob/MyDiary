@@ -1,0 +1,4 @@
+fragment ErrorSnippet on FieldError {
+  field
+  message
+}
