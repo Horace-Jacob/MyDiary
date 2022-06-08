@@ -53,7 +53,6 @@ workflows:
 
     scripts:
       - name: Injecting env vars
-        script: echo "REACT_APP_API_KEY=$REACT_APP_API_KEY" >> .env
       - name: Installing packages
         script: yarn install
       - name: Building Applications
